@@ -38,7 +38,7 @@ function GeometryReshapingTool() {
 
   h = new go.Shape();
   h.figure = 'Circle';
-  h.desiredSize = new go.Size(7, 7);
+  h.desiredSize = new go.Size(0, 0);
   h.fill = 'lightblue';
   h.stroke = 'dodgerblue';
   h.cursor = 'move';
